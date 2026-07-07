@@ -1,0 +1,467 @@
+{
+  "categories_source": "js/main.js catNames",
+  "categories": [
+    "enseignes",
+    "bipole",
+    "panneaux",
+    "panneaux-sol-geants",
+    "panneaux-chantier",
+    "panneaux-toiture",
+    "signaletique-interieure",
+    "presentoirs",
+    "palissades",
+    "identite-visuelle",
+    "habillage-vehicules",
+    "bureau-vente",
+    "habillage-magasins",
+    "impression-numerique",
+    "panneaux-affichage",
+    "stands",
+    "totems"
+  ],
+  "image_directory": "C:\\Users\\laptop 368\\Desktop\\my computer\\code\\websites\\thematic\\img",
+  "classifications": [
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.34.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.34.jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:49:05+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.36 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.36 (1).jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:49:06+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.36 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.36 (2).jpeg",
+      "category": "presentoirs",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:49:46+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.36.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.36.jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:50:08+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.46 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.46 (1).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:50:35+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.46 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.46 (2).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:50:41+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.46.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.46.jpeg",
+      "category": "panneaux-chantier",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:51:10+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.47 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.47 (1).jpeg",
+      "category": "habillage-vehicules",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:51:14+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.47 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.47 (2).jpeg",
+      "category": "bureau-vente",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:51:52+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.47 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.47 (3).jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:51:59+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.47.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.47.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:06+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (1).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:07+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (2).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:08+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (3).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:09+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (4).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (4).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:11+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (5).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (5).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:12+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48 (6).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48 (6).jpeg",
+      "category": "signaletique-interieure",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:19+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.48.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.48.jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:21+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.49 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.49 (1).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:25+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.49 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.49 (2).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:26+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.49 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.49 (3).jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:28+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.49 (4).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.49 (4).jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:29+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.12.49.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.12.49.jpeg",
+      "category": "signaletique-interieure",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:34+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.36.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.36.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:52:36+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.37 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.37 (1).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:37+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.37 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.37 (2).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:38+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.37.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.37.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:39+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.47 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.47 (1).jpeg",
+      "category": "impression-numerique",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:45+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.47.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.47.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:46+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.48 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.48 (1).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:49+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.48 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.48 (2).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:49+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.48.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.48.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:51+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.51 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.51 (1).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:53+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.51 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.51 (2).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:54+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.51 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.51 (3).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:55+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.51.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.51.jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:56+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (1).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T22:53:58+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (2).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:13:37+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (3).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:13:46+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (4).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (4).jpeg",
+      "category": "palissades",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:13+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (5).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (5).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:15+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52 (6).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52 (6).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:18+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.52.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.52.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:19+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.53 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.53 (2).jpeg",
+      "category": "enseignes",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:44+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.53 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.53 (3).jpeg",
+      "category": "enseignes",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:45+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.53 (4).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.53 (4).jpeg",
+      "category": "enseignes",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:46+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.53 (5).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.53 (5).jpeg",
+      "category": "habillage-vehicules",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:14:53+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 02.31.53.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 02.31.53.jpeg",
+      "category": "enseignes",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:00+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.19.17.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.19.17.jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:01+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.33.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.33.jpeg",
+      "category": "palissades",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:06+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg",
+      "category": "bipole",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:16+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.40.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.40.jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:18+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.41 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.41 (1).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:21+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.41.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.41.jpeg",
+      "category": "signaletique-interieure",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:44+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 03.33.43.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 03.33.43.jpeg",
+      "category": "bipole",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:46+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 15.59.59 (1).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 15.59.59 (1).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:49+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 15.59.59 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 15.59.59 (2).jpeg",
+      "category": "impression-numerique",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:53+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 15.59.59 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 15.59.59 (3).jpeg",
+      "category": "panneaux-toiture",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:55+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 16.00.00 (2).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 16.00.00 (2).jpeg",
+      "category": "palissades",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:15:58+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 16.00.00 (3).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 16.00.00 (3).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:16:00+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 16.00.00 (4).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 16.00.00 (4).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:16:02+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 16.00.00 (6).jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 16.00.00 (6).jpeg",
+      "category": "habillage-magasins",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:16:05+00:00"
+    },
+    {
+      "filename": "WhatsApp Image 2026-06-09 at 16.00.00.jpeg",
+      "path": "img/WhatsApp Image 2026-06-09 at 16.00.00.jpeg",
+      "category": "totems",
+      "status": "categorized",
+      "updated_at": "2026-07-06T23:16:11+00:00"
+    }
+  ],
+  "last_modified": "2026-07-06T23:16:19+00:00"
+}

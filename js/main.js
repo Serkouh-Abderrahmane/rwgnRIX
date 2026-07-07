@@ -5,118 +5,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- IMAGE CATALOGUE (from /img) ---
-  const IMG = [
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.34.jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.36 (1).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.36 (2).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.36.jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.46 (1).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.46 (2).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.46.jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (1).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (2).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (3).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.47.jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (1).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (2).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (3).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (4).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (5).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48 (6).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.48.jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.49 (1).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.49 (2).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.49 (3).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.49 (4).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 02.12.49.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.36.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.37 (1).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.37 (2).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.37.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.47 (1).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.47.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.48 (1).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.48 (2).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.48.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.51 (1).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.51 (2).jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 02.31.51 (3).jpeg' },
-    { cat: 'enseignes',           file: 'WhatsApp Image 2026-06-09 at 02.31.51.jpeg' },
-    { cat: 'signaletique-interieure', file: 'WhatsApp Image 2026-06-09 at 02.31.52 (1).jpeg' },
-    { cat: 'enseignes',           file: 'WhatsApp Image 2026-06-09 at 02.31.52 (2).jpeg' },
-    { cat: 'totems',              file: 'WhatsApp Image 2026-06-09 at 02.31.52 (3).jpeg' },
-    { cat: 'presentoirs',         file: 'WhatsApp Image 2026-06-09 at 02.31.52 (4).jpeg' },
-    { cat: 'panneaux',            file: 'WhatsApp Image 2026-06-09 at 02.31.52 (5).jpeg' },
-    { cat: 'panneaux',            file: 'WhatsApp Image 2026-06-09 at 02.31.52 (6).jpeg' },
-    { cat: 'panneaux-sol-geants', file: 'WhatsApp Image 2026-06-09 at 02.31.52.jpeg' },
-    { cat: 'panneaux-sol-geants', file: 'WhatsApp Image 2026-06-09 at 02.31.53 (2).jpeg' },
-    { cat: 'panneaux-chantier',   file: 'WhatsApp Image 2026-06-09 at 02.31.53 (3).jpeg' },
-    { cat: 'panneaux-toiture',    file: 'WhatsApp Image 2026-06-09 at 02.31.53 (4).jpeg' },
-    { cat: 'panneaux-affichage',  file: 'WhatsApp Image 2026-06-09 at 02.31.53 (5).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.31.53.jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 03.19.17.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 03.33.33.jpeg' },
-    { cat: 'impression-numerique',file: 'WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg' },
-    { cat: 'enseignes',           file: 'WhatsApp Image 2026-06-09 at 03.33.40.jpeg' },
-    { cat: 'signaletique-interieure', file: 'WhatsApp Image 2026-06-09 at 03.33.41 (1).jpeg' },
-    { cat: 'identite-visuelle',   file: 'WhatsApp Image 2026-06-09 at 03.33.41.jpeg' },
-    { cat: 'panneaux-affichage',  file: 'WhatsApp Image 2026-06-09 at 03.33.43.jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 15.59.59 (1).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 15.59.59 (2).jpeg' },
-    { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 15.59.59 (3).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 16.00.00 (2).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 16.00.00 (3).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 16.00.00 (4).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 16.00.00 (6).jpeg' },
-    { cat: 'habillage-magasins',  file: 'WhatsApp Image 2026-06-09 at 16.00.00.jpeg' },
-  ];
-  const VIDEOS = [
-    { cat: 'hero', file: 'WhatsApp Video 2026-06-09 at 02.12.48.mp4' },
-    { cat: 'hero', file: 'WhatsApp Video 2026-06-09 at 02.31.51.mp4' },
-  ];
-
-  const path = (f) => `img/${encodeURIComponent(f)}`;
-  const catNames = {
-    enseignes: 'Enseignes',
-    bipole: 'Bipôle',
-    panneaux: 'Panneaux',
-    'panneaux-sol-geants': 'Panneaux sur sol géants',
-    'panneaux-chantier': 'Panneaux de chantier',
-    'panneaux-toiture': 'Panneaux sur toiture',
-    'signaletique-interieure': 'Signalétique intérieure',
-    presentoirs: 'Présentoirs',
-    palissades: 'Palissades',
-    'identite-visuelle': 'Identité visuelle des entreprises',
-    'habillage-vehicules': 'Habillage de véhicules',
-    'bureau-vente': 'Bureau de vente',
-    'habillage-magasins': 'Habillage de magasins',
-    'impression-numerique': 'Impression numérique',
-    'panneaux-affichage': "Panneaux d'affichage",
-    stands: 'Stands',
-    totems: 'Totems',
-  };
-  const catContext = {
-    enseignes: { problem: 'Façade qui manque d\'impact', solution: 'Enseigne lumineuse ou lettrage sur mesure', result: 'Visibilité 24h/24' },
-    bipole: { problem: 'Besoin d\'affichage double face', solution: 'Bipôle publicitaire 360°', result: 'Visibilité dans l\'espace public' },
-    panneaux: { problem: 'Messages noyés dans le paysage', solution: 'Panneau standard aux dimensions adaptées', result: 'Impact visuel renforcé' },
-    'panneaux-sol-geants': { problem: 'Annonces de grande envergure invisibles', solution: 'Panneau au sol géant à l\'entrée', result: 'Captation immédiate du regard' },
-    'panneaux-chantier': { problem: 'Palissade de chantier sans message', solution: 'Habiliage chantier réglementaire', result: 'Communication et protection' },
-    'panneaux-toiture': { problem: 'Toiture inexploitée', solution: 'Panneau sur toiture visible des axes', result: 'Visibilité maximale' },
-    'signaletique-interieure': { problem: 'Visiteurs perdus dans vos locaux', solution: 'Signalétique intérieure claire', result: 'Guidage fluide et esthétique' },
-    presentoirs: { problem: 'Produits sans mise en valeur', solution: 'Présentoir sur mesure', result: 'Mise en avant des articles' },
-    palissades: { problem: 'Palissade nue, image négative', solution: 'Habiliage de palissade esthétique', result: 'Valorisation du chantier' },
-    'identite-visuelle': { problem: 'Marque sans cohérence graphique', solution: 'Identité visuelle complète', result: 'Image professionnelle unifiée' },
-    'habillage-vehicules': { problem: 'Véhicules qui passent inaperçus', solution: 'Habiliage publicitaire sur mesure', result: 'Marque mobile 24h/24' },
-    'bureau-vente': { problem: 'Bureau de vente difficile à repérer', solution: 'Signalétique et habillage dédiés', result: 'Repérage immédiat' },
-    'habillage-magasins': { problem: 'Vitrine qui n\'attire pas le regard', solution: 'Habiliage vitrine et façade', result: 'Attraction client renforcée' },
-    'impression-numerique': { problem: 'Supports sans rendu professionnel', solution: 'Impression grand format HD', result: 'Rendu éclatant' },
-    'panneaux-affichage': { problem: 'Affichage extérieur sans impact', solution: 'Panneau d\'affichage couleurs vives', result: 'Impact maximal sur les passants' },
-    stands: { problem: 'Stand qui ne se démarque pas', solution: 'Stand sur mesure image de marque', result: 'Différenciation en salon' },
-    totems: { problem: 'Entrée sans signal fort', solution: 'Totem vertical haute visibilité', result: 'Identification à distance' },
-  };
-  const catList = Object.keys(catNames);
-
   // --- 1. MOBILE MENU ---
   const menuToggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav');
@@ -250,6 +138,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let lightboxIdx = 0;
 
   if (masonry) {
+    // Hide filter buttons for categories without images
+    if (filterBar) {
+      filterBar.querySelectorAll('.filter-btn').forEach(btn => {
+        const slug = btn.dataset.filter;
+        if (slug !== 'tout' && !COVERS[slug]) {
+          btn.style.display = 'none';
+        }
+      });
+    }
+
     renderMasonry();
 
     // Filters
@@ -260,6 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
           btn.classList.add('active');
           currentFilter = btn.dataset.filter;
           visibleCount = perPage;
+          updateCategoryHero(currentFilter);
           renderMasonry();
           masonry.scrollIntoView({ behavior: 'smooth' });
         });
@@ -274,6 +173,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function updateCategoryHero(slug) {
+    const hero = document.querySelector('.category-hero');
+    if (!hero) return;
+
+    if (slug === 'tout' || !COVERS[slug]) {
+      hero.style.display = 'none';
+      return;
+    }
+
+    const img = hero.querySelector('.category-hero-img');
+    const title = hero.querySelector('.category-hero-title');
+    const desc = hero.querySelector('.category-hero-desc');
+    const ctx = catContext[slug] || {};
+
+    img.src = path(COVERS[slug]);
+    img.alt = catNames[slug] || slug;
+    title.textContent = catNames[slug] || slug;
+    desc.textContent = ctx.solution || '';
+    hero.style.display = 'block';
+  }
+
   function renderMasonry() {
     filteredItems = currentFilter === 'tout'
       ? IMG
@@ -285,10 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
     items.forEach((item, idx) => {
       const a = document.createElement('div');
       a.className = 'masonry-item';
-      // Random tall/wide for visual interest
-      const r = Math.random();
-      if (r > 0.85) a.classList.add('tall');
-      else if (r > 0.7) a.classList.add('wide');
 
       const ctx = catContext[item.cat] || { problem: 'Projet', solution: 'Réalisation', result: '' };
       a.innerHTML = `
@@ -367,7 +283,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const homeGrid = document.querySelector('.home-portfolio-grid');
   if (homeGrid) {
     homeGrid.innerHTML = '';
-    const preview = IMG.slice(0, 7);
+    // Show one image per available category (up to 7)
+    const catsWithImages = catList.filter(slug => COVERS[slug]);
+    const preview = catsWithImages.slice(0, 7).map(slug => {
+      const imgs = IMG.filter(i => i.cat === slug);
+      return imgs.length ? imgs[0] : null;
+    }).filter(Boolean);
     preview.forEach((item, i) => {
       const div = document.createElement('div');
       div.className = 'home-portfolio-item';
@@ -385,24 +306,47 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 10. SERVICE IMAGES (home grid + services page) ---
   function assignServiceImages() {
     const cards = document.querySelectorAll('.service-card-img');
-    const shuffled = [...IMG].sort(() => Math.random() - 0.5);
-    cards.forEach((card, i) => {
-      if (i < shuffled.length) {
-        card.src = path(shuffled[i].file);
-        card.alt = 'Illustration ' + (catNames[shuffled[i].cat] || 'service') + ' — Thematik Communication';
+    cards.forEach(card => {
+      const cat = card.dataset.category;
+      let file = null;
+      if (cat && COVERS[cat]) {
+        file = COVERS[cat];
+      } else if (cat) {
+        const imgs = IMG.filter(i => i.cat === cat);
+        if (imgs.length) file = imgs[Math.floor(Math.random() * imgs.length)].file;
+      }
+      if (!file) {
+        const fallback = IMG[Math.floor(Math.random() * IMG.length)];
+        if (fallback) file = fallback.file;
+      }
+      if (file) {
+        card.src = path(file);
+        card.alt = 'Illustration ' + (catNames[cat || 'service'] || 'service') + ' — Thematik Communication';
       }
     });
   }
   assignServiceImages();
 
-  // --- 11. CONTACT FORM ---
+  // --- 11. CONTACT FORM (WhatsApp) ---
   const form = document.querySelector('.contact-form form');
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
+      const data = new FormData(form);
+      const parts = [
+        'Bonjour Thematik Communication,', '',
+        'Nouvelle demande de devis :', '',
+        `Nom : ${data.get('name')}`,
+        `Email : ${data.get('email')}`,
+        `Téléphone : ${data.get('phone')}`,
+        `Service : ${data.get('service')}`, '',
+        `Message : ${data.get('message')}`,
+      ];
+      const msg = parts.map(s => encodeURIComponent(s)).join('%0A');
+      window.open(`https://wa.me/212661324180?text=${msg}`, '_blank');
       const btn = form.querySelector('button[type="submit"]');
       const orig = btn.innerHTML;
-      btn.innerHTML = '✓ Message envoyé';
+      btn.innerHTML = '✓ Redirection WhatsApp...';
       btn.style.background = '#25d366';
       btn.disabled = true;
       setTimeout(() => {
@@ -410,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.style.background = '';
         btn.disabled = false;
         form.reset();
-      }, 3000);
+      }, 4000);
     });
   }
 

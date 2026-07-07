@@ -657,6 +657,62 @@ ul { list-style: none; }
   box-shadow: 0 8px 30px rgba(230,57,70,0.3);
 }
 
+/* --- CATEGORY HERO (filtered view) --- */
+.category-hero {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.category-hero-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.category-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.category-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.15) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+}
+.category-hero-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.category-hero-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0 0 6px;
+}
+.category-hero-desc {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+  max-width: 500px;
+}
+@media (max-width: 768px) {
+  .category-hero { height: 240px; }
+  .category-hero-overlay { padding: 24px; }
+  .category-hero-title { font-size: 1.6rem; }
+  .category-hero-desc { font-size: 0.85rem; }
+}
+
 .masonry {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -668,10 +724,8 @@ ul { list-style: none; }
   overflow: hidden;
   cursor: pointer;
   transition: all 0.5s var(--ease-out);
-  aspect-ratio: auto;
+  aspect-ratio: 4 / 3;
 }
-.masonry-item.tall { grid-row: span 2; }
-.masonry-item.wide { grid-column: span 2; }
 .masonry-item img {
   width: 100%; height: 100%;
   object-fit: cover;
@@ -1167,8 +1221,6 @@ ul { list-style: none; }
   .trust-band { padding: 20px 0; }
   .trust-badge { font-size: 0.7rem; padding: 6px 14px; }
   .masonry { grid-template-columns: 1fr 1fr; }
-  .masonry-item.tall { grid-row: span 1; }
-  .masonry-item.wide { grid-column: span 1; }
   .about-grid { grid-template-columns: 1fr; gap: 30px; }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .contact-form { padding: 28px; }
