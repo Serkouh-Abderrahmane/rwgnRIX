@@ -8,7 +8,7 @@ const IMG = [
   { cat: 'panneaux-toiture', file: 'WhatsApp Image 2026-06-09 at 02.12.36.jpeg' },
   { cat: 'habillage-magasins', file: 'WhatsApp Image 2026-06-09 at 02.12.46 (1).jpeg' },
   { cat: 'panneaux-toiture', file: 'WhatsApp Image 2026-06-09 at 02.12.46 (2).jpeg' },
-  { cat: 'panneaux-chantier', file: 'WhatsApp Image 2026-06-09 at 02.12.46.jpeg' },
+
   { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (1).jpeg' },
   { cat: 'bureau-vente', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (2).jpeg' },
   { cat: 'totems', file: 'WhatsApp Image 2026-06-09 at 02.12.47 (3).jpeg' },
@@ -45,11 +45,9 @@ const IMG = [
   { cat: 'habillage-magasins', file: 'WhatsApp Image 2026-06-09 at 02.31.52 (5).jpeg' },
   { cat: 'panneaux-toiture', file: 'WhatsApp Image 2026-06-09 at 02.31.52 (6).jpeg' },
   { cat: 'habillage-magasins', file: 'WhatsApp Image 2026-06-09 at 02.31.52.jpeg' },
-  { cat: 'enseignes', file: 'WhatsApp Image 2026-06-09 at 02.31.53 (2).jpeg' },
-  { cat: 'enseignes', file: 'WhatsApp Image 2026-06-09 at 02.31.53 (3).jpeg' },
-  { cat: 'enseignes', file: 'WhatsApp Image 2026-06-09 at 02.31.53 (4).jpeg' },
+
   { cat: 'habillage-vehicules', file: 'WhatsApp Image 2026-06-09 at 02.31.53 (5).jpeg' },
-  { cat: 'enseignes', file: 'WhatsApp Image 2026-06-09 at 02.31.53.jpeg' },
+
   { cat: 'habillage-magasins', file: 'WhatsApp Image 2026-06-09 at 03.19.17.jpeg' },
   { cat: 'palissades', file: 'WhatsApp Image 2026-06-09 at 03.33.33.jpeg' },
   { cat: 'bipole', file: 'WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg' },
@@ -73,16 +71,11 @@ const VIDEOS = [
 ];
 
 const catNames = {
-  'enseignes': 'Enseignes en drapeaux',
-  'bipole': 'Bipôle',
-  'panneaux': 'Panneaux',
   'panneaux-sol-geants': 'Panneaux bipôles géants',
-  'panneaux-chantier': 'Panneaux de chantier',
   'panneaux-toiture': 'Panneaux sur toiture',
   'signaletique-interieure': 'Signalétique intérieure',
   'presentoirs': 'Totems en découpe',
   'palissades': 'Palissades',
-  'identite-visuelle': 'Identité visuelle des entreprises',
   'habillage-vehicules': 'Habillage de véhicules',
   'bureau-vente': 'Habillage de façade de showroom',
   'habillage-magasins': 'Habillage de magasin',
@@ -93,16 +86,11 @@ const catNames = {
 };
 
 const catContext = {
-  'enseignes': { problem: 'Façade qui manque d\'impact', solution: 'Enseigne en drapeau ou lettrage sur mesure', result: 'Visibilité 24h/24' },
-  'bipole': { problem: 'Besoin d\'affichage double face', solution: 'Bipôle publicitaire 360°', result: 'Visibilité dans l\'espace public' },
-  'panneaux': { problem: 'Messages noyés dans le paysage', solution: 'Panneau standard aux dimensions adaptées', result: 'Impact visuel renforcé' },
   'panneaux-sol-geants': { problem: 'Annonces de grande envergure invisibles', solution: 'Panneau bipôle géant implanté au sol', result: 'Captation immédiate du regard' },
-  'panneaux-chantier': { problem: 'Palissade de chantier sans message', solution: 'Habillage chantier réglementaire', result: 'Communication et protection' },
   'panneaux-toiture': { problem: 'Toiture inexploitée', solution: 'Panneau sur toiture visible des axes', result: 'Visibilité maximale' },
   'signaletique-interieure': { problem: 'Visiteurs perdus dans vos locaux', solution: 'Signalétique intérieure claire', result: 'Guidage fluide et esthétique' },
   'presentoirs': { problem: 'Totem sans forme distinctive', solution: 'Totem en découpe sur mesure', result: 'Image marquante et mémorable' },
   'palissades': { problem: 'Palissade nue, image négative', solution: 'Habillage de palissade esthétique', result: 'Valorisation du chantier' },
-  'identite-visuelle': { problem: 'Marque sans cohérence graphique', solution: 'Identité visuelle complète', result: 'Image professionnelle unifiée' },
   'habillage-vehicules': { problem: 'Véhicules qui passent inaperçus', solution: 'Habillage publicitaire sur mesure', result: 'Marque mobile 24h/24' },
   'bureau-vente': { problem: 'Façade de showroom sans impact', solution: 'Habillage de façade de showroom', result: 'Attraction et conviction renforcées' },
   'habillage-magasins': { problem: 'Vitrine qui n\'attire pas le regard', solution: 'Habillage de magasin sur mesure', result: 'Attraction client renforcée' },
@@ -112,23 +100,21 @@ const catContext = {
   'totems': { problem: 'Entrée sans signal fort', solution: 'Totem géant haute visibilité', result: 'Identification à distance' },
 };
 
-const catList = ['enseignes', 'bipole', 'panneaux', 'panneaux-sol-geants', 'panneaux-chantier', 'panneaux-toiture', 'signaletique-interieure', 'presentoirs', 'palissades', 'identite-visuelle', 'habillage-vehicules', 'bureau-vente', 'habillage-magasins', 'impression-numerique', 'panneaux-affichage', 'stands', 'totems'];
+const catList = ['panneaux-sol-geants', 'panneaux-toiture', 'signaletique-interieure', 'presentoirs', 'palissades',  'habillage-vehicules', 'bureau-vente', 'habillage-magasins', 'impression-numerique', 'panneaux-affichage', 'stands', 'totems'];
 
 const COVERS = {
   'totems': 'WhatsApp Image 2026-06-09 at 02.12.34.jpeg',
   'presentoirs': 'WhatsApp Image 2026-06-09 at 02.12.48.jpeg',
-  'panneaux-toiture': 'WhatsApp Image 2026-06-09 at 15.59.59 (1).jpeg',
+  'panneaux-toiture': 'WhatsApp Image 2026-06-09 at 02.31.52 (6).jpeg',
   'habillage-magasins': 'WhatsApp Image 2026-06-09 at 02.31.52 (1).jpeg',
-  'panneaux-chantier': 'WhatsApp Image 2026-06-09 at 02.12.46.jpeg',
   'habillage-vehicules': 'WhatsApp Image 2026-06-09 at 02.12.47 (1).jpeg',
   'bureau-vente': 'WhatsApp Image 2026-06-09 at 03.19.17.jpeg',
   'signaletique-interieure': 'WhatsApp Image 2026-06-09 at 02.12.49.jpeg',
   'impression-numerique': 'WhatsApp Image 2026-06-09 at 02.31.47 (1).jpeg',
   'palissades': 'WhatsApp Image 2026-06-09 at 02.31.52 (4).jpeg',
-  'enseignes': 'WhatsApp Image 2026-06-09 at 02.31.53 (4).jpeg',
-  'bipole': 'WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg',
   'panneaux-sol-geants': 'WhatsApp Image 2026-06-09 at 03.33.37 (1).jpeg',
   'panneaux-affichage': 'WhatsApp Image 2026-06-09 at 02.12.46.jpeg',
+  'stands': 'WhatsApp Image 2026-06-09 at 16.00.00.jpeg',
 };
 
 const path = (f) => `img/${f.replace(/ /g, '%20')}`;

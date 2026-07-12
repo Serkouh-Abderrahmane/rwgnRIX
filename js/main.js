@@ -206,14 +206,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const a = document.createElement('div');
       a.className = 'masonry-item';
 
-      const ctx = catContext[item.cat] || { problem: 'Projet', solution: 'Réalisation', result: '' };
       a.innerHTML = `
         <img src="${path(item.file)}"         alt="Réalisation ${catNames[item.cat] || 'signalétique'} — Thematik Communication" loading="lazy">
-        <div class="overlay">
-          <span>${catNames[item.cat] || 'Projet'}</span>
-          <h4>${ctx.problem}</h4>
-          <small style="display: block; color: var(--accent); font-size: 0.8rem; margin-top: 2px;">${ctx.solution} &rarr;</small>
-        </div>
       `;
       a.addEventListener('click', () => openLightbox(idx));
       masonry.appendChild(a);
