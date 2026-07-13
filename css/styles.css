@@ -179,12 +179,13 @@ ul { list-style: none; }
   z-index: 1;
 }
 .logo {
-  font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: -1px;
-  color: var(--white);
+  display: flex;
+  align-items: center;
 }
-.logo span { color: var(--accent); }
+.logo img {
+  height: 40px;
+  width: auto;
+}
 .nav ul { display: flex; gap: 36px; }
 .nav a {
   font-size: 0.85rem;
